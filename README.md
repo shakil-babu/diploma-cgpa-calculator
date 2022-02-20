@@ -1,7 +1,8 @@
 ```
-Hi there,
-Thanks for coming here. This is a simple and amazing BTEB CGPA calculator. It can easily calculate your final CGPA and grade according to any BTEB regulations.
+Hi there 👋,
 ```
+
+Thanks for coming here. This is a simple and amazing BTEB CGPA calculator. It can easily calculate your final CGPA and grade according to any BTEB regulations.
 
 # CGPA Calculator :
 
