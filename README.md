@@ -6,7 +6,7 @@ Thanks for coming here. This is a simple and amazing BTEB CGPA calculator. It ca
 
 # CGPA Calculator :
 
-It's easy to use no bullshits here. click for [demo]() :-
+It's easy to use no bullshits here. click for [demo](https://shakil-babu.github.io/diploma-cgpa-calculator/) :-
 
 ![BTEB CGPA Calculator Preview](/assets/cgpa-calculator.png)
 
