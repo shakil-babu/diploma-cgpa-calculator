@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- meta tags -->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- favicon -->
+	<link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+	<!-- title -->
+	<title>BTEB CGPA calculator - calculate your grade!</title>
+	<!-- styles -->
+	<link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+	<!-- calculator section -->
+	<section class="calculator__area">
+		<div class="container">
+			<!-- calculator flex area -->
+			<div class="calculator__area--flex">
+				<!-- calculator flex area left -->
+				<div class="calculator__area--flex-left">
+					<h3>Would You Like To Know your final CGPA ?</h3>
+				</div>
+				<!-- calculator flex right area -->
+				<div class="calculator__area--flex-right">
+					<h3>Diploma CGPA Calculator</h3>
+					<p>Enter your all semeter's result</p>
+					<!-- show wrong and result message area -->
+					<div id="show__wrong__message">
+					</div>
+					<!-- select probidhan area -->
+					<div class="select__probidhan">
+						<select name="Select Probidhan" id="select_probidhan">
+							<option value="0">Select Probidhan</option>
+							<option value="2010">2010</option>
+							<option value="2016">2016</option>
+						</select>
+					</div>
+					<!-- calculator area wrapper -->
+					<div class="calculator__area--flex-wrapper">
+						<!-- semester result input box - 01 -->
+						<div class="input__box__flex">
+							<input id="input" type="text" placeholder="1st semester">
+							<input id="input" type="text" placeholder="2nd semester">
+						</div>
+						<!-- semester result input box - 02 -->
+						<div class="input__box__flex">
+							<input id="input" type="text" placeholder="3rd semester">
+							<input id="input" type="text" placeholder="4th semester">
+						</div>
+						<!-- semester result input box - 03 -->
+						<div class="input__box__flex">
+							<input id="input" type="text" placeholder="5th semester">
+							<input id="input" type="text" placeholder="6th semester">
+						</div>
+						<!-- semester result input box - 04 -->
+						<div class="input__box__flex">
+							<input id="input" type="text" placeholder="7th semester">
+							<input id="input" type="text" placeholder="8th semester">
+						</div>
+					</div>
+					<!-- result calculate and clear button area -->
+					<div class="calculate__btn__area">
+						<button id="clear__btn" class="clear__btn">Clear</button>
+						<button id="calculate__btn" class="calculate__btn">Calculate</button>
+					</div>
+
+          <!-- created by @shakilbabu -->
+          <p class="creator__badge">Created by <a href="https://github.com/shakil-babu" target="__blank">@shakilbabu</a></p>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	<!-- scripts -->
+	<script src="./js/app.js"></script>
+</body>
+
+</html>
